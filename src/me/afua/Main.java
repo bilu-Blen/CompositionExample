@@ -7,11 +7,11 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	// Request the name of the parent
         Person theParent = new Person();
         theParent.setName("Afua");
 
-//        Adding children here
+//      Adding children here (as many children as the user would like)
         Person childOne = new Person();
         childOne.setName("First Child");
         theParent.addAChild(childOne);
